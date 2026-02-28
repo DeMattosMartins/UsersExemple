@@ -5,7 +5,7 @@ import { Footer } from './Footer'
 
 export const TabsView = () => {
   return (
-    <div className="w-full h-screen flex flex-col overflow-hidden">
+    <div className="w-full h-full flex flex-col overflow-hidden">
       <Tabs defaultValue="all-users" className="w-full min-h-0 flex-1 flex flex-col">
         <TabsList className="flex fixed top-4 left-1/2 -translate-x-1/2 z-10 bg-[#6a6a6a] rounded-full px-1 py-1 gap-1">
           <TabsTrigger
